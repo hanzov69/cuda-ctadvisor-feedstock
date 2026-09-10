@@ -8,6 +8,7 @@ conda_build:
   error_overlinking: true
 conda_forge_output_validation: true
 provider:
+  win_64: github_actions
   win_arm64: github_actions
   linux_64: default
   linux_aarch64: default
